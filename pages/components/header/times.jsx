@@ -1,6 +1,6 @@
 import { formatToLocalTime } from "@/service/weather-app";
 
-const Times = ({weather}) => {
+export const Times = ({weather}) => {
   const { dt, timezone } = weather;
   return (
     <div>
@@ -12,5 +12,3 @@ const Times = ({weather}) => {
     </div>
   );
 };
-
-export default Times;

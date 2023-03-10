@@ -1,7 +1,7 @@
 import { iconUrlFromCode } from "@/service/weather-app";
 import Image from "next/image";
 
-const Hourly = ({ weather }) => {
+export const Hourly = ({ weather }) => {
   const { hourly } = weather;
 
   return (
@@ -30,4 +30,3 @@ const Hourly = ({ weather }) => {
   );
 };
 
-export default Hourly;

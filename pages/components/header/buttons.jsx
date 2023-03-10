@@ -1,4 +1,4 @@
-const Buttons = ({setQuery}) => {
+export const Buttons = ({setQuery}) => {
   
   const cities = [
     {
@@ -38,4 +38,3 @@ const Buttons = ({setQuery}) => {
   );
 };
 
-export default Buttons;
