@@ -1,6 +1,6 @@
 import { Buttons } from "./components/buttons";
 import { Inputs } from "./components/inputs";
-import { Times } from "./components/times";
+import { Times } from "./times";
 
 export const Header = ({ weather, setQuery, units, setUnits }) => {
   return (

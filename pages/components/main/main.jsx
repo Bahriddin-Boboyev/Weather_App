@@ -1,4 +1,4 @@
-import { Daily } from "./components/daily";
+import { Daily } from "./daily";
 import { Degree } from "./components/degree";
 import { Hourly } from "./components/hourly";
 
