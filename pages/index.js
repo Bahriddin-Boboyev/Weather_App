@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useState, useEffect } from "react";
-import { Header, Main } from "./components";
+import Header from "./components/header/header";
+import Main from "./components/main/main";
 import getFormattedWeatherData from "@/service/weather-app";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";

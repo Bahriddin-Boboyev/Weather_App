@@ -1,8 +1,8 @@
-import { Daily } from "./daily";
-import { Degree } from "./degree";
-import { Hourly } from "./hourly";
+import Daily from "./daily";
+import Degree from "./degree";
+import Hourly from "./hourly";
 
-export const Main = ({ weather }) => {
+const Main = ({ weather }) => {
   const { name, country, details } = weather;
 
   return (
@@ -24,3 +24,5 @@ export const Main = ({ weather }) => {
     </main>
   );
 };
+
+export default Main

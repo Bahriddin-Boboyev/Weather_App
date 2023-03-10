@@ -2,7 +2,7 @@ import { useState } from "react";
 import { UilSearch, UilLocationPoint } from "@iconscout/react-unicons";
 import { toast } from "react-toastify";
 
-export const Inputs = (props) => {
+const Inputs = (props) => {
   const setQuery = props.setQuery;
   const units = props.units;
   const setUnits = props.setUnits;
@@ -85,3 +85,5 @@ export const Inputs = (props) => {
     </div>
   );
 };
+
+export default Inputs;

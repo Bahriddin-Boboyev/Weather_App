@@ -1,4 +1,4 @@
-export const Buttons = (props) => {
+const Buttons = (props) => {
   const setQuery = props.setQuery;
   const cities = [
     {
@@ -37,3 +37,5 @@ export const Buttons = (props) => {
     </div>
   );
 };
+
+export default Buttons;

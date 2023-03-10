@@ -1,8 +1,8 @@
-import { Buttons } from "./buttons";
-import { Inputs } from "./inputs";
-import { Times } from "./times";
+import Buttons from "./buttons";
+import Inputs from "./inputs";
+import Times from "./times";
 
-export const Header = ({ weather, setQuery, units, setUnits }) => {
+const Header = ({ weather, setQuery, units, setUnits }) => {
   return (
     <header>
       <Buttons setQuery={setQuery} />
@@ -11,3 +11,5 @@ export const Header = ({ weather, setQuery, units, setUnits }) => {
     </header>
   );
 };
+
+export default Header;

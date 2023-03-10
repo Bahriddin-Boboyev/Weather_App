@@ -1,6 +1,6 @@
 import { formatToLocalTime } from "@/service/weather-app";
 
-export const Times = (props) => {
+const Times = (props) => {
   const { dt, timezone } = props.weather;
   return (
     <div>
@@ -12,3 +12,5 @@ export const Times = (props) => {
     </div>
   );
 };
+
+export default Times;
