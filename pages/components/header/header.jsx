@@ -1,6 +1,6 @@
-import { Buttons } from "./pages/buttons";
-import { Inputs } from "./pages/inputs";
-import { Times } from "./pages/times";
+import { Buttons } from "./components/buttons";
+import { Inputs } from "./components/inputs";
+import { Times } from "./components/times";
 
 export const Header = ({ weather, setQuery, units, setUnits }) => {
   return (
