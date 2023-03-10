@@ -1,6 +1,6 @@
 import { Daily } from "./daily";
-import { Degree } from "./components/degree";
-import { Hourly } from "./components/hourly";
+import { Degree } from "./degree";
+import { Hourly } from "./hourly";
 
 export const Main = ({ weather }) => {
   const { name, country, details } = weather;
