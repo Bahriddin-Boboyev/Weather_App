@@ -1,8 +1,8 @@
 import { iconUrlFromCode } from "@/service/weather-app";
 import Image from "next/image";
 
-const Daily = (props) => {
-  const { daily } = props.weather;
+const Daily = ({ weather }) => {
+  const { daily } = weather;
 
   return (
     <div>
@@ -32,4 +32,4 @@ const Daily = (props) => {
   );
 };
 
-export default Daily
+export default Daily;

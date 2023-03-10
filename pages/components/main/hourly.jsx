@@ -1,8 +1,8 @@
 import { iconUrlFromCode } from "@/service/weather-app";
 import Image from "next/image";
 
-const Hourly = (props) => {
-  const { hourly } = props.weather;
+const Hourly = ({ weather }) => {
+  const { hourly } = weather;
 
   return (
     <div>

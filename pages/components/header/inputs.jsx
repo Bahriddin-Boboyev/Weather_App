@@ -2,10 +2,7 @@ import { useState } from "react";
 import { UilSearch, UilLocationPoint } from "@iconscout/react-unicons";
 import { toast } from "react-toastify";
 
-const Inputs = (props) => {
-  const setQuery = props.setQuery;
-  const units = props.units;
-  const setUnits = props.setUnits;
+const Inputs = ({ setQuery, units, setUnits }) => {
   const [city, setCity] = useState("");
 
   const handleUnitsChange = (e) => {

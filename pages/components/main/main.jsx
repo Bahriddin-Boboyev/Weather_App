@@ -25,4 +25,4 @@ const Main = ({ weather }) => {
   );
 };
 
-export default Main
+export default Main;

@@ -1,5 +1,5 @@
-const Buttons = (props) => {
-  const setQuery = props.setQuery;
+const Buttons = ({setQuery}) => {
+  
   const cities = [
     {
       id: 1,

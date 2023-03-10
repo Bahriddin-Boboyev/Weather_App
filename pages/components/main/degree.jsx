@@ -2,7 +2,7 @@ import { UilSun } from "@iconscout/react-unicons";
 import { iconUrlFromCode } from "@/service/weather-app";
 import { formatToLocalTime } from "@/service/weather-app";
 import Image from "next/image";
-const Degree = (props) => {
+const Degree = ({ weather }) => {
   const {
     icon,
     temp,
@@ -14,7 +14,7 @@ const Degree = (props) => {
     humidity,
     feels_like,
     timezone,
-  } = props.weather;
+  } = weather;
 
   return (
     <div>
@@ -79,4 +79,4 @@ const Degree = (props) => {
   );
 };
 
-export default Degree 
+export default Degree;
